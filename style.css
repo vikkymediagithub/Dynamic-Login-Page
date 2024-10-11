@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff8c6b;
+    overflow: hidden;
+}
+
+.box{
+    max-width: 1020px;
+    position: relative;
+    height: 640px;
+    background-color: #fff;
+    box-shadow: 0 60px 40px -30px rgba(0,0,0,0.27);
+    width: 100%;
+    border-radius: 50px;
+}
